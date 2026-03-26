@@ -8,13 +8,27 @@ Last updated: 2025-08-04
 
 ----------------------
 
-> **GitHub Pages** is a feature provided by GitHub that allows you to `host static websites directly from a GitHub repository`. It's a great way to showcase your projects, create personal websites, or host documentation for your repositories. 
+> **GitHub Pages** is a feature provided by GitHub that allows you to `host static websites directly from a GitHub repository`. It's a great way to showcase your projects, create personal websites, or host documentation for your repositories. `That means it serves whatever files you put in your repository, without running backend code.`
+
+> [!TIP]
+> What is GitHub Pages? <br/>
+> GitHub Pages is a `free service that turns your GitHub repositories into websites`. You can host HTML, CSS, and JavaScript files, and it’s perfect for static websites that `don’t require server-side processing`. GitHub Pages supports custom domains, making it easy to create a professional-looking website.
+
+- Markdown (.md) → converted to HTML automatically if you use Jekyll.
+- HTML, CSS, JavaScript → served directly as static files.
+- Jekyll templates (Liquid) → processed by GitHub Pages if you keep Jekyll enabled.
+- Static assets → images, fonts, PDFs, JSON, etc.
+
+> [!NOTE]
+> - If you need dynamic behavior, you can use JavaScript frameworks (React, Vue, Angular) that compile down to static files and deploy them to GitHub Pages.
+> - For backend logic, you’d need to connect to external APIs or use another service (like Firebase, Supabase, or a traditional server).
 
 <details>
 <summary><b>List of References</b> (Click to expand)</summary>
 
 - [Websites for you and your projects](https://pages.github.com/)
 - [Essentials of automated application deployment with GitHub Actions and GitHub Pages](https://resources.github.com/learn/pathways/automation/essentials/automated-application-deployment-with-github-actions-and-pages/)
+
 
 </details>
 
@@ -28,9 +42,6 @@ Last updated: 2025-08-04
 - [Setting Up GitHub Pages](#setting-up-github-pages)
 
 </details>
-
-> What is GitHub Pages? <br/>
-> GitHub Pages is a `free service that turns your GitHub repositories into websites`. You can host HTML, CSS, and JavaScript files, and it’s perfect for static websites that `don’t require server-side processing`. GitHub Pages supports custom domains, making it easy to create a professional-looking website.
 
 ## How is GitHub Pages Used?
 - **Personal Websites**: Showcase your portfolio, resume, or blog.
