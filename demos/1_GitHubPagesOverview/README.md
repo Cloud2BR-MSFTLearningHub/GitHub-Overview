@@ -1,4 +1,4 @@
-# GitHub Pages -Overview 
+# GitHub Pages - Overview 
 
 Costa Rica
 
