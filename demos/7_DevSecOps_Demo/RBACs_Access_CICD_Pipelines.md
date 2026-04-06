@@ -2,7 +2,7 @@
 
 Costa Rica
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [brown9804](https://github.com/brown9804)
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-01-25
 
@@ -56,7 +56,7 @@ From [End-to-end governance in Azure when using CI/CD](https://learn.microsoft.c
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1370-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-03-26</p>
+  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-04-06</p>
 </div>
 <!-- END BADGE -->

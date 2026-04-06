@@ -2,7 +2,7 @@
 
 Costa Rica
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [brown9804](https://github.com/brown9804)
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-03-26
 
@@ -15,7 +15,7 @@ Last updated: 2026-03-26
 
 - [Websites for you and your projects](https://pages.github.com/)
 - [Essentials of automated application deployment with GitHub Actions and GitHub Pages](https://resources.github.com/learn/pathways/automation/essentials/automated-application-deployment-with-github-actions-and-pages/)
-- [Microsoft Cloud Sandbox - Unofficial](https://microsoftcloudessentials-learninghub.github.io/org-catalog/) One example was a catalog that aggregated multiple repositories from my GitHub organization. The idea behind it was to create a user‑friendly page that listed all repositories hosted within the organization, while also allowing them to be filtered based on GitHub metadata by [Org Catalog (GitHub Pages)](https://github.com/MicrosoftCloudEssentials-LearningHub/org-catalog)
+- [Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub](https://cloud2br-msftlearninghub.github.io/org-catalog/) One example was a catalog that aggregated multiple repositories from my GitHub organization. The idea behind it was to create a user-friendly page that listed all repositories hosted within the organization, while also allowing them to be filtered based on GitHub metadata by [Org Catalog (GitHub Pages)](https://github.com/Cloud2BR-MSFTLearningHub/org-catalog)
 - [TechWorkshop L300: Win the database acceleration](https://microsoft.github.io/TechExcel-Win-the-Database-Platform/) Example of Workshops documented using GitHub Pages
 
 </details>
@@ -84,7 +84,7 @@ Last updated: 2026-03-26
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1370-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-03-26</p>
+  <img src="https://img.shields.io/badge/Total%20views-1329-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-04-06</p>
 </div>
 <!-- END BADGE -->

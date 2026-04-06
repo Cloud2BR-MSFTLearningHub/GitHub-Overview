@@ -66,15 +66,34 @@ jobs:
           GIT_COMMITTER_NAME: github-actions[bot]
           GIT_COMMITTER_EMAIL: github-actions[bot]@users.noreply.github.com
         run: |
+          set -euo pipefail
+
           # Ensure we're on the correct branch
           git switch -c "$PR_BRANCH" || git switch "$PR_BRANCH"
-          
-          # Stage and commit changes if any
+
+          # Rebase onto the latest remote branch state before creating a commit.
+          git fetch origin "$PR_BRANCH"
+          git rebase "origin/$PR_BRANCH"
+
+          # Stage and commit changes if any.
           git add -A
-          git diff --staged --quiet || git commit -m "Update visitor count"
-          
-          # Pull and merge existing changes
-          git pull origin "$PR_BRANCH" --no-rebase
-          
-          # Push all changes
-          git push origin "$PR_BRANCH"
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update visitor count"
+
+          # Retry the push after rebasing if another update lands first.
+          for attempt in 1 2 3; do
+            if git push origin HEAD:"$PR_BRANCH"; then
+              exit 0
+            fi
+
+            echo "Push rejected on attempt $attempt; fetching and rebasing"
+            git fetch origin "$PR_BRANCH"
+            git rebase "origin/$PR_BRANCH"
+          done
+
+          echo "Failed to push visitor count updates after 3 attempts"
+          exit 1
